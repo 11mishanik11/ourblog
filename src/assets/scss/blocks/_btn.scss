@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+
+    padding: 1em 2em;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: $white;
+
+    background-color: $blue;
+    border-radius: 2em;
+    border: 1px solid transparent;
+    box-shadow: 0px 7px 17px -10px rgba($blue, 0.2);
+    transition: background-color linear .2s, border-color linear .2s;
+
+    &:hover {
+        background-color: transparent;
+        border-color: $blue;
+    }
+
+    &--red {
+        background-color: $red;
+        box-shadow: 0px 7px 17px -10px rgba($red, 0.2);
+        box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+
+        &:hover {
+            border-color: $red;
+        }
+    }
+}
